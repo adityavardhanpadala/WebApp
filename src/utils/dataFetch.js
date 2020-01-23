@@ -15,7 +15,7 @@ const cookies = new Cookies();
   })
  */
 
-const API_URL = 'https://api.amfoss.in/';
+const API_URL = 'https://api.bi0s.in/';
 
 export default ({ query, variables }) => {
   const body = {
