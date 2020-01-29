@@ -16,7 +16,7 @@ const ActiveStatusBar = ({ lastSeen, membersPresentCount, isInLab }) => {
   ) : !isInLab && lastSeen !== null ? (
     <Alert
       className="m-2"
-      message="You are not in the amFOSS Lab"
+      message="You are not in the bi0s Lab"
       description={`Your attendance is not being recorded. If you are really in the lab, 
       there is certainly something wrong with your configuration. Please fix it,
       or seek help. <b>You were last recorded at ${lastSeen.toString()}</b>`}
@@ -35,8 +35,8 @@ const ActiveStatusBar = ({ lastSeen, membersPresentCount, isInLab }) => {
   ) : (
     <Alert
       className="m-2"
-      message="You are in amFOSS Lab"
-      description="Come on start working !"
+      message="You are in bi0s Lab"
+      description="Start Hacking!!"
       type="success"
       showIcon
     />

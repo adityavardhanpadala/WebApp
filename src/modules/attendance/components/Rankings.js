@@ -124,7 +124,7 @@ const Rankings = ({ isRangeSet, startDate, endDate }) => {
           <List.Item.Meta
             avatar={
               <Avatar
-                src={m.user.profile.profilePic ? `https://api.amfoss.in/${m.user.profile.profilePic}`: `https://avatars.githubusercontent.com/${m.user.avatar.githubUsername}`}
+                src={m.user.profile.profilePic ? `https://api.bi0s.in/${m.user.profile.profilePic}`: `https://avatars.githubusercontent.com/${m.user.avatar.githubUsername}`}
               />
             }
             title={

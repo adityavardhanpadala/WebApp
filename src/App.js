@@ -62,7 +62,7 @@ const App = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>amFOSS App</title>
+        <title>bi0s App</title>
       </Helmet>
       <BrowserRouter>
         <Switch>
