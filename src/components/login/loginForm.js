@@ -6,7 +6,7 @@ import { Redirect } from 'react-router';
 
 import dataFetch from '../../utils/dataFetch';
 import { TokenAuth as query } from '../../utils/mutations';
-import cmsLogo from "../../images/cms_logo.png";
+import cmsLogo from "../../images/bi0s_logo1.png";
 
 const cookies = new Cookies();
 
